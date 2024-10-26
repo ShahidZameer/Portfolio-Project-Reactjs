@@ -1,0 +1,45 @@
+.slider-content  {
+    transition: max-height 0.5s ease-in-out, opacity 0.5s ease-in-out;
+    background-color: #f1f1f1;
+    padding: 0;                  
+    max-width: 0px;     
+    overflow: hidden;
+    margin-top: 20px;
+    border-radius: 10px;
+  }
+
+  
+  /* Open state */
+ .slider-content.Open {
+    overflow:visible; 
+    background: red;
+    max-height: 300px;            
+    opacity: 1;                   
+    padding: 20px;             
+    transition: max-height 0.5s ease-in-out, opacity 0.5s ease-in-out, padding 0.5s ease-in-out;
+  }
+  
+  /* Optional extra: Add slide-in effect for better visibility */
+   .Open {
+
+    animation: slideDown 0.5s ease forwards;
+  }
+  
+  .Close {
+    animation: slideUp 0.5s ease forwards;
+    
+
+  }
+ 
+  /* Slide down animation */
+  @keyframes slideDown {
+    0% {
+      max-height: 0;
+      opacity: 0;
+    }
+    100% {
+      max-height: 300px; /* Adjust based on content */
+      opacity: 1;
+    }
+  }
+  

@@ -1,0 +1,121 @@
+.Portfolio-banner{
+    background: url(../Banner-img/Contact.jpg);
+    height:500px;
+    margin-top: -100px;
+    background-attachment: fixed;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    background-size: cover;
+    background-position: center;
+    color: white;
+}
+.Portfolio-banner::before{
+    content: '';
+  position: absolute;
+  top: 0;
+  height: inherit;
+  width: 100%;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: rgba(0, 0, 0, 0.7);
+}
+
+.Portfolio-banner-content p {
+    font-size: 0.8rem;
+    text-transform:uppercase;
+      
+}
+.Portfolio-banner-content h1 {
+    font-size: 3.2rem;
+    margin-bottom: 10px;
+    z-index: 2;
+    position: relative;
+}  
+
+.blog-section{
+
+ /* max-width: 94%;
+ margin-left: auto;
+ margin-right: auto;
+ margin-top: 90px;
+ margin-bottom: 90px; */
+}
+.heading p{
+padding-bottom: 30px;
+
+}
+.heading span{
+    color:white;
+}
+.heading .fas:hover{ 
+    border-radius: 50%;
+    animation: rotateIcon ease-in 2s infinite;
+  
+}
+@keyframes rotateIcon {
+    from {
+        transform: rotate(0deg);
+    }
+    to {
+        transform: rotate(300deg);
+     }
+}
+.heading{
+    padding-left: 52px;
+}
+
+.blog-section{
+  margin-top: 120px;
+}  
+.blog-container {
+    display: flex;
+    justify-content: space-between;
+    padding-top:20px;
+    margin-right: auto;
+    margin-left: auto;
+    max-width: 94%;
+    margin-bottom: 140px;
+    flex-wrap: wrap ;
+  }
+  .blog-section h1 {
+    font-size: 2.2rem;
+    /* margin-bottom: 15px; */
+    width: 600px;
+    /* padding-left: 20px; */
+  }
+  .blog-item p{
+   padding-top:20px;
+
+  }
+  .blog-item {
+    /* border: 1px solid #ddd; */
+    padding:15px;
+    width:600px;
+    height:500px;
+  } 
+  
+  .blog-item img {
+    width:100%;
+    height: auto;
+    /* border-radius: 8px 8px 0 0; */
+  }
+  
+  .blog-item h2 {
+    font-size: 1.5rem;
+    margin: 10px 0;
+  }
+  
+  .blog-item p {
+    font-size: 1rem;
+    color: #666;
+  }
+  
+  @media (max-width: 768px) {
+    .blog-container {
+      flex-wrap: wrap;
+    }
+  }
+  

@@ -1,0 +1,287 @@
+*{
+  font-family: sans-serif;
+}
+/* Footer Base */
+h5,p{
+   margin:0px;
+   padding:0px;
+}
+.footer{
+    background-color:#000;
+    color: white;
+    padding: 40px 0px;
+    overflow: hidden;
+    
+  }
+  
+.footer-container {
+    width: 100%;
+    margin:auto;
+  }
+  
+  /* Logo */
+  .footer-info img {
+    width:90px;
+    height: inherit;
+    margin-bottom: 5px;
+  }
+  .footer-social i{ 
+    filter: grayscale(80%) brightness(1) invert(100%) sepia(100%) saturate(10000%) hue-rotate(-680deg);
+    font-size: 17px;
+    padding:5px; 
+  }
+  .footer-contact a{
+    
+    border:1px solid #15171e;
+    background:#15171e;
+  }
+  
+  /* Description */
+  .footer-description {
+    font-size: 18px;
+    margin-bottom: 20px;
+    color: #aaa;
+  }
+  
+  /* Social Media Icons */
+  .footer-social {
+    display: flex;
+    gap: 15px;
+    margin-bottom: 20px;
+  }
+  
+  .footer-social a {
+    color: #aaa;
+    font-size: 24px;
+    text-decoration: none;
+  }
+  
+  .footer-social a:hover {
+    color: white;
+  }
+  
+  /* Info Section */
+  .footer-info {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 30px;
+    flex-wrap: wrap;
+  }
+  
+  .footer-info div {
+    margin-bottom: 10px;
+    font-size: 15px;
+  }
+  
+  /* Contact Info */
+  .footer-contact h4,
+  .footer-links h4,
+  .footer-subscribe h4 {
+    margin-bottom: 16px;
+    font-family: sans-serif;
+    font-size: 17px;
+    font-weight: 800;
+
+  }
+  .footer-links .icon{
+    display:flex;
+    align-items: center;
+    margin-bottom: 0px;
+    
+  }
+
+  .footer-links .icon i{
+    margin-right: 5px;;
+  }
+  .footer-contact .p{
+    margin-top:0px;
+    color:#aaa;;
+    font-family: var(--font-family);
+    padding-top:0px;
+    padding-bottom: 40px;
+    width:350px;
+  }
+  .footer-contact p{
+    padding-top:9px;
+  }
+  .footer-contact .icon{
+    display:flex;
+  }
+  .footer-contact .icon p{
+    font-family:Arial, Helvetica, sans-serif;
+    font-weight:700; 
+    color:#948b8b;
+
+  }
+  .footer-contact .icon i{
+    padding:0px;
+    margin:0px;
+    margin-right:10px;
+    padding-top: 10px;
+    background: transparent;
+  }
+  .icon .fa-phone{
+    border:none;
+    background: transparent;
+    padding:0px;
+  }
+  /* Useful Links */
+  .footer-links ul {
+    list-style: none;
+    padding-left: 0px;
+    padding: 0;
+    padding-top:0px;
+  }
+  
+  .footer-links ul li {
+    margin-bottom: 8px; 
+    padding-left: 0px;
+   
+  }
+  .footer .contact-p{
+    padding-bottom:40px;
+
+  }
+  .footer-logo{
+    text-align: center;
+    padding-bottom: 35px;
+  }
+  ul li{
+    text-align: left;
+    margin-left:0px;
+    margin-top: 5px;
+  }
+  
+  .footer-links ul li a {
+    color: #aaa;
+    text-decoration: none;
+   
+  }
+  
+  .footer-links ul li a:hover {
+    color: white;
+    text-decoration: underline;
+  }
+  
+  /* Newsletter Subscription */
+  .footer-subscribe form {
+    display: flex;
+    align-items: center;
+    
+  }
+  .footer-subscribe p{
+    margin-top: 15px;
+    margin-bottom: 30px;
+    padding-top: 0px;
+    width: 400px;
+    color:#aaa;
+  }
+  .footer-subscribe .btn-flex{
+    display: flex;
+    align-items: center;
+  }
+  
+  .subscribe-input {
+    padding: 14px;
+    width: 80%;
+    max-width: 300px;
+    margin-bottom: 10px;
+    border: none;
+    border-radius: 1px;
+    background:rgba(41, 40, 40, 0.7);
+    font-family: sans-serif;
+    font-weight: 600;
+    border:1px solid #777676;
+    color:#cac3c3;
+  }
+  
+  .subscribe-button {
+    padding:14px 42px;
+    margin-left:5px;
+    margin-top: -10px;
+    background-color:#ec3737;
+    color: white;
+    border: 1px solid red;
+    border-radius: 0px;
+    cursor: pointer;
+  }
+ 
+  .subscribe-button:hover {
+    background-color:black;
+     
+    
+    transition: ease 0.7s;
+  }
+  
+  /* Copyright */
+  .footer-copyright {
+    margin-top: 40px;
+    font-size: 14px;
+    text-align: center;
+    color: #aaa;
+  }
+  
+  /* Responsive Design */
+  @media (max-width: 768px) {
+    .footer-info {
+      flex-direction: column;
+      text-align: center;
+    }
+  
+    .footer-info div {
+      margin-bottom: 20px;
+    }
+  }
+  @media screen and (max-width:600px) {
+    .footer-600px{
+      margin:auto;
+      display:flex; 
+      text-align: center;
+      padding:10px;
+      width: 347px;
+    }
+    .footer-social{
+      justify-content: center;
+    }
+    .footer-container{
+      width: 90%;
+    }
+    
+  .element-container{
+    flex-wrap: wrap; 
+    margin-top:-20px;
+    max-width: 100%;
+ 
+
+  }
+  .elementor{
+    width: 100%; 
+    padding-bottom: 0px;
+  }
+  .elementor p{
+    width: 100%;
+  }
+  .portfolio-banner{
+    margin-left: 0px;
+  }
+  .element-icon span{
+    font-size:11px;
+  }
+    .footer-info{
+      text-align: left;
+    }
+    .footer-subscribe .btn-flex{
+      display: inline-block;
+      width: 100%; 
+    }
+    .footer-subscribe input{
+      width: 100%;
+      max-width: 100%;
+      margin-bottom:14px;
+    }
+    .footer-subscribe button{
+      width: 100%;
+      margin-left: 0px;
+    }
+  }
+  

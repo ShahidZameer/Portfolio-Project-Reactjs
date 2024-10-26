@@ -1,0 +1,218 @@
+
+  
+  .container {
+    display: flex;
+    justify-content: space-between;
+    color:white;
+    padding:0px 40px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    margin-bottom:220px;
+
+  }
+  
+  /* Left content styling */
+  .left-content {
+    width: 45%;
+    padding-right: 20px;
+    padding:65px 90px 70px 60px;
+    background:#15171e;
+  }
+  .talk-expert{
+    border:2px solid rgb(170, 167, 167);
+    height:150px;
+    width: 470px;
+    background:black;
+    color:white;
+    overflow: hidden;
+  }
+  .talk-expert img{
+    width:200px;
+    height:200px;
+    background-size: cover;
+    object-fit: cover;
+    object-position: center;
+    
+  }
+  .flex-expert{
+    display:flex;
+  }
+  .flex-expert .diver{
+     display: flex;
+     margin-left: 65px;
+     margin-top: 50px;
+     flex-direction: column;    
+    font-family:sans-serif;
+    font-weight: 500;
+  }
+.flex-expert h3{
+  font-size: 25px;
+  margin-bottom: 10px;
+}
+.flex-expert h4{
+  text-align: center;
+  color:#838181;
+  font-size: 12px;
+  font-weight:800;
+}
+  
+  .left-content h1 {
+    margin-bottom: 15px;
+  }
+  
+  .left-content p {
+    padding-top:0px;
+    margin-bottom:90px;
+  }
+  
+  /* Right content form styling */
+  .right-content {
+    width: 52%;
+    background:#15171e; 
+    padding:40px
+  }
+  .container input{
+    background: #000;
+  }
+  
+  .contact-form {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .contact-form label {
+    margin-bottom: 5px;
+  }
+  
+  .contact-form input,
+  .contact-form select,
+  .contact-form textarea {
+    margin-bottom: 15px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+
+  }
+ 
+ 
+  button {
+    padding: 10px 15px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    cursor: pointer;
+    border-radius: 4px;
+  }
+  
+  
+.input-flex{
+  margin:auto;
+ 
+}
+.input-flex input{
+  width:220px;
+  margin-bottom:30px;
+  padding-bottom:14px;
+  border:2px solid gray;
+  outline: 0;
+  color:white;
+  margin-top: 5px;
+  
+}
+.input-flex label{
+  font-family:sans-serif;
+  color:rgb(199, 197, 197);
+  font-weight: 600;
+
+}
+.flex select,option{
+ background: black;
+ color:white; 
+ width:100%;
+ margin-top:5px;
+ 
+}
+.input-flex input::placeholder{
+  color:white; 
+  
+}
+
+.flex{
+  margin:20px;
+  display:inline-block;
+  width:240px;
+  justify-content: space-between;
+}
+
+.full-width{
+  width:100%;
+  margin:10px;
+  display: inline-block;
+  
+}
+.full-width label{
+  font-family:sans-serif;
+  color:rgb(199, 197, 197);
+  font-weight: 600;  
+}
+.full-width textarea{
+  width: 95%;
+  background: black;
+  border:2px solid gray;
+  outline: 0;
+  color:white;
+  margin-top: 5px;
+}
+.full-width button{
+  width:95%;
+  
+}
+@media screen and (max-width:600px) {
+  .left-content{
+    padding:31px 10px 14px 20px
+  }
+  .container{
+    display:block;
+    padding:15px;
+  }
+  .talk-expert{
+    height:372px;
+    border:none;
+    background: transparent;
+    width: 100%;
+  }
+  .talk-expert img{
+    width: 100%;
+    height:250px;
+  }
+  .flex-expert{
+    display:block;
+    text-align: center;
+  }
+
+  .flex-expert .diver{
+    display: block;
+    margin-left: 0px;
+    margin-top:10px;
+  }
+  .left-content ,.right-content{
+    width: 100%;
+  }
+  .right-content{
+    padding:20px;
+  }
+  .flex{
+    margin:3px;
+    width:100%;
+  }
+  .input-flex input{
+    width: 100%;
+    padding-bottom:8px;
+    border-radius: 0px;
+  }
+  .full-width{
+    margin:0px;
+
+  }
+
+  
+}
